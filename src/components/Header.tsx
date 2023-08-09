@@ -1,12 +1,38 @@
-import React from "react";
+"use client";
 
-const Header = () => {
+import React from "react";
+import { motion as m } from "framer-motion";
+import clsx from "clsx";
+import Link from "next/link";
+
+const Header = ({ isRedLayer }: { isRedLayer: boolean }) => {
   return (
-    <header className="flex p-4 items-center justify-between font-normal text-xl">
-      <div className="blur-[1px] hover:blur-0 transition-opacity">
-        Muhammad Tehseen
-      </div>
-      <div className="blur-[1px] hover:blur-0 transition-opacity">Contact</div>
+    <header
+      className={clsx(
+        isRedLayer ? "text-black z-10" : "text-redis-gray  z-[1]",
+        "flex px-8 py-4 items-center justify-between font-normal text-xl fixed inset-x-0 top-0"
+      )}
+    >
+      <m.div initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
+        MT
+      </m.div>
+      <ul className="text-sm text-right">
+        <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
+          <Link href={"#about"} className="">
+            About
+          </Link>
+        </m.li>
+        <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
+          <Link href={"#work"} className="">
+            Work
+          </Link>
+        </m.li>
+        <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
+          <Link href={"#contact"} className="">
+            Contact
+          </Link>
+        </m.li>
+      </ul>
     </header>
   );
 };
