@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Provider from "@/components/Provider";
 import { avantGarde } from "./fonts";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "Muhammad Tehseen | Frontend Developer",
@@ -17,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <body className={clsx(avantGarde.className, "bg-black/95 text-white")}>
         <Provider>{children}</Provider>
       </body>
