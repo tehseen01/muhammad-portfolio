@@ -3,7 +3,6 @@
 import { markSimonson } from "@/app/fonts";
 import clsx from "clsx";
 import React from "react";
-import { motion } from "framer-motion";
 import { useCircleVariant } from "./CircleSizeProvider";
 
 const About = ({ isRedLayer }: { isRedLayer: boolean }) => {

@@ -1,3 +1,5 @@
+"use client";
+
 import { markSimonson } from "@/app/fonts";
 import clsx from "clsx";
 import React from "react";
@@ -112,7 +114,7 @@ export const projects = [
   {
     id: 1,
     name: "Portfolio",
-    time: "Now",
+    time: "Working...",
     liveLink: "",
     githubLink: "https://github.com/tehseen01/muhammad-portfolio",
   },

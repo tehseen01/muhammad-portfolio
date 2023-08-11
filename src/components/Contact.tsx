@@ -125,7 +125,6 @@ const Contact = ({ isRedLayer }: { isRedLayer: boolean }) => {
               <span className="uppercase">email</span>
               <a
                 href={"mailto:tehseen.type@gmail.com"}
-                // target="_blank"
                 className="text-xs opacity-60"
               >
                 tehseen.type@gmail.com

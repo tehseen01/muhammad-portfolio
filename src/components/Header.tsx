@@ -18,19 +18,13 @@ const Header = ({ isRedLayer }: { isRedLayer: boolean }) => {
       </m.div>
       <ul className="text-sm text-right">
         <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
-          <Link href={"#about"} className="">
-            About
-          </Link>
+          <Link href={"#about"}>About</Link>
         </m.li>
         <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
-          <Link href={"#work"} className="">
-            Work
-          </Link>
+          <Link href={"#work"}>Work</Link>
         </m.li>
         <m.li initial={{ scaleY: 0 }} animate={{ scaleY: 1 }}>
-          <Link href={"#contact"} className="">
-            Contact
-          </Link>
+          <Link href={"#contact"}>Contact</Link>
         </m.li>
       </ul>
     </header>
