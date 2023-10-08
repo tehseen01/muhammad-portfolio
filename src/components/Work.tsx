@@ -113,17 +113,17 @@ export default Work;
 export const projects = [
   {
     id: 1,
-    name: "Portfolio",
-    time: "Working...",
-    liveLink: "",
-    githubLink: "https://github.com/tehseen01/muhammad-portfolio",
+    name: "Blog sharing app",
+    time: "September - 2023",
+    liveLink: "https://ten-blog.vercel.app/",
+    githubLink: "https://github.com/tehseen01/nextjs-blog",
   },
   {
     id: 2,
-    name: "Shopping app",
-    time: "July - 2023",
-    liveLink: "https://dev-shopp.vercel.app",
-    githubLink: "https://github.com/tehseen01/nextjs-shopping-app",
+    name: "Portfolio",
+    time: "August - 2023",
+    liveLink: "",
+    githubLink: "https://github.com/tehseen01/muhammad-portfolio",
   },
   {
     id: 3,
@@ -131,5 +131,12 @@ export const projects = [
     time: "May - 2023",
     liveLink: "https://instagram-clone-tehseen01.vercel.app/",
     githubLink: "https://github.com/tehseen01/instagram-clone",
+  },
+  {
+    id: 4,
+    name: "Shopping app",
+    time: "July - 2023",
+    liveLink: "https://dev-shopp.vercel.app",
+    githubLink: "https://github.com/tehseen01/nextjs-shopping-app",
   },
 ];
