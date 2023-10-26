@@ -112,6 +112,13 @@ export default Work;
 
 export const projects = [
   {
+    id: 5,
+    name: "Google drive clone",
+    time: "Working...",
+    liveLink: "https://ten-drive.vercel.app/",
+    githubLink: "https://github.com/tehseen01/tendrive",
+  },
+  {
     id: 1,
     name: "Blog sharing app",
     time: "September - 2023",
